@@ -105,7 +105,7 @@ footer a {
 
 @media screen and (max-width: 500px) {
     body {
-        background-position: -200px -70px;
+        background-position: -200px -150px;
         background-size: 180%;
     }
     h2, h3 {
