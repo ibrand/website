@@ -7,17 +7,32 @@ addEventListener('deviceorientation', event => {
   // let imageX = browserWidth * .6
 
   let current = parseInt($('body').css('background-position-x').slice(0, -2));
-  const limit = 45;
+  const limit = 30;
+  const distance = 40;
+  let right = false;
+  let left = false;
+  let center = false;
   let position = Math.round(event.gamma);
-  if (Math.abs(position) > limit) {
-    if (position > limit) {
-        position = limit;
-    } else {
-        position = -limit;
-    }
+  if (position > limit) {
+    right = true;
+  }
+  else if (position < limit && position > 0) {
+    center = true;
+  }
+  else if (position < limit) {
+    left = true;
   }
   
-  $('body').css('background-position-x', current + position + 'px')
+  if (right) {
+    $('body').css('background-position-x', -200 + distance + 'px')
+  }
+  if (left) {
+    $('body').css('background-position-x', -200 - distance + 'px')
+  }
+  if (center) {
+    $('body').css('background-position-x', -200 + 'px')
+  }
+  // $('body').css('background-position-x', current + position + 'px')
   $('h2').text(position)
 });
 

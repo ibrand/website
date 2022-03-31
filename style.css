@@ -9,6 +9,11 @@ body {
     background-size: cover;
     font-family: Oswald, sans-serif;
     background-repeat: no-repeat;
+
+    -webkit-transition:background-position 2s ease;
+	-moz-transition:background-position 2s ease;
+	-o-transition:background-position 2s ease;
+	transition:background-position 2s ease;
 }
 
 .home {
