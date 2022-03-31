@@ -8,6 +8,7 @@ body {
     background-position: 0% 45%;
     background-size: cover;
     font-family: Oswald, sans-serif;
+    background-repeat: no-repeat;
 }
 
 .home {

@@ -16,10 +16,9 @@ addEventListener('deviceorientation', event => {
         position = -limit;
     }
   }
-  // position = position / -100;
   
   $('body').css('background-position-x', current + position + 'px')
-  $('h2').text(current - position + 'px')
+  $('h2').text(position)
 });
 
 function ofMap(value, min1, max1, min2, max2) {
