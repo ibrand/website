@@ -7,8 +7,8 @@ addEventListener('deviceorientation', event => {
   // let imageX = browserWidth * .6
 
   let current = parseInt($('body').css('background-position-x').slice(0, -2));
-  const limit = 30;
-  const distance = 40;
+  const limit = 20;
+  const distance = 50;
   let right = false;
   let left = false;
   let center = false;
