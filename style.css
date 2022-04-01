@@ -4,7 +4,6 @@
 body {
     all: initial;
     min-height: 100%;
-    background-image: url(img/letsBuildTechnologyThatShouldExistPoster.jpg);
     background-position: 0% 45%;
     background-size: cover;
     font-family: Oswald, sans-serif;
@@ -14,14 +13,6 @@ body {
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
 	transition:background-position 2s ease;
-}
-
-.home {
-    color: white;
-}
-
-.home a {
-    color: white;
 }
 
 h1, h2, h3, h4, h5 {
@@ -52,6 +43,15 @@ h4 {
 h5 {
     font-size: 24px;
     margin-bottom: 0px;
+}
+
+.home {
+    color: white;
+    background-image: url(img/letsBuildTechnologyThatShouldExistPoster.jpg);
+}
+
+.home a {
+    color: white;
 }
 
 .title-box {
