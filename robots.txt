@@ -1,1 +1,2 @@
-User-agent: * Disallow: /anatomy/*
+User-agent: *
+Disallow: /anatomy/
