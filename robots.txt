@@ -1,2 +1,20 @@
+# Shadow banning myself
+# ...
+# I want to Shadow Ban myself
+# I have poured so much into being seen
+# that suddenly i want to disappear.
+# I'd like to be unsearchable, unscrutable, unparsable.
+# I'd like to float through the world quietly, unperceived.
+#
+# If there is a mandate to publish,
+# then when you don't publish,
+# that is an act of refusal.
+# The more I become legible, the less I become "a body"
+# A body is made out of meat, not words
+# I refuse to leave my body, I refuse to publish my body
+# ...
+
 User-agent: *
+
+# I want to Shadow Ban my body
 Disallow: /anatomy/
