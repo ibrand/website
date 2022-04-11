@@ -1,6 +1,17 @@
 .chest {
     background-image: url(../media/img/chest.jpg);
     background-position: 0% 0%;
+    background-size: 100%;
+
+    -webkit-transition:background-size 4s ease;
+	-moz-transition:background-size 4s ease;
+	-o-transition:background-size 4s ease;
+	transition:background-size 4s ease;
+/* 
+    -webkit-transition:background-position 2s ease;
+	-moz-transition:background-position 2s ease;
+	-o-transition:background-position 2s ease;
+	transition:background-position 2s ease; */
 }
 
 h2 {
