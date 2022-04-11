@@ -1,4 +1,26 @@
 .chest {
-    background-image: url(../img/chest.jpg);
+    background-image: url(../media/img/chest.jpg);
     background-position: 0% 0%;
+}
+
+h2 {
+    background: white;
+    display: inline-block;
+}
+
+.poem-container {
+    background: white;
+    width: 50%;
+    margin: 20px 0px;
+    padding: 7px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.connection {
+    text-decoration: underline;
+    cursor: pointer;
 }

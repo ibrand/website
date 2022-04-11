@@ -45,6 +45,10 @@ h5 {
     margin-bottom: 0px;
 }
 
+p, pre {
+    font-size: 16px;
+}
+
 .site {
     font-family: 'Oswald', sans-serif;
     padding: 6em 2.5em 2.5em;
