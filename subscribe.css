@@ -1,0 +1,40 @@
+.newsletter-form {
+    margin-top: 30px;
+    width: 30%;
+    border: 2px solid rgb(242, 153, 92);
+    padding: 30px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter-form h3 {
+    text-align: center;
+}
+
+.newsletter-form input {
+    display: block;
+}
+
+.newsletter-form .input-field {
+    margin-bottom: 20px;
+    height: 20px;
+    width: 80%;
+}
+
+.submit-button {
+    color: rgb(23, 30, 101);
+    background: rgb(242, 153, 92);
+    border: none;
+    padding: 10px;
+}
+
+.attribution {
+    font-size: 12px;
+    position: relative;
+    padding-top: 20px;
+    display: block;
+}
+
+.subtext {
+    font-size: 14px;
+}
