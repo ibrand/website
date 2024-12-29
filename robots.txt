@@ -20,4 +20,4 @@ User-agent: *
 Disallow: /anatomy/
 
 # I want to Shadow Ban my archive
-Disallow: /work/
+Disallow: /projects/
