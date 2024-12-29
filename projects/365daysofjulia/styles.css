@@ -1,0 +1,104 @@
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #scroll {
+    position: relative;
+  }
+
+  .scroll__graphic {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .scroll__graphic img {
+    position: absolute;
+    left: -2%;
+    top: -12px;
+    width: 105%;
+    height: 105vh;
+  }
+
+  .scroll__text {
+    position: relative;
+    padding: 0;
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+
+  .step {
+    color: #fff;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .step.focus {
+      height: 100vh;
+  }
+
+  .step p {
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-family: Rubik;
+    background-color: rgba(0,0,0,.9);
+    border: 1px solid #7F1A45;
+  }
+
+  .step p.glow {
+    -webkit-box-shadow: -2px 0px 49px 3px rgba(254,209,9,1);
+    -moz-box-shadow: -2px 0px 49px 3px rgba(254,209,9,1);
+    box-shadow: -2px 0px 49px 3px rgba(254,209,9,1);
+  }
+
+  .line {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    border-bottom: 2px solid gold;
+    z-index: 10;
+    top: 383px;
+  }
+
+  .dayCount {
+    font-size: 28px;
+    font-family: Inconsolata;
+    color: #ffd700;
+    padding-left: 25px;
+  }
+
+  #mobileDisclaimer {
+      display: none;
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      background: black;
+      color: white;
+      font-family: Rubik;
+      padding: 20px;
+      z-index: 99999;
+  }
+
+#loader {
+    display: block;
+    position: fixed;
+    text-align: center;
+    font-size: 2rem;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-family: Rubik;
+    padding-top: 20vh;
+    z-index: 99999;
+}
